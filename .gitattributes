@@ -1,0 +1,16 @@
+# Unify line endings
+* text=auto
+
+# Language markup for GitHub Linguist
+*.ipynb linguist-language = Python
+
+# CSV, TXT — read as text
+*.csv text
+*.tsv text
+*.txt text
+
+# Handle binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
